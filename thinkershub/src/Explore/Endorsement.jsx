@@ -15,16 +15,16 @@ import adv9 from "../assets/OTHERBOX.jpg"
 function Endorsement (){    
     return (
         <>
-            <div className="flex flex-row gap-[4rem] justify-center items-center mt-[2rem] mb-[2rem]">
-                <div className="w-[4rem] md:w-[4rem]"><img src={adv1}/> </div>
+            <div className="flex flex-row md:gap-[4rem] gap-[1rem] justify-center items-center mt-[2rem] mb-[2rem]">
+                <div className="w-[3rem] md:w-[4rem]"><img src={adv1}/> </div>
                 <div className="w-[3rem] md:w-[4rem]"><img src={adv2}/></div>
-                <div className="w-[4rem]"><img src={adv3}/></div>
-                <div className="w-[5rem]"><img src={adv4}/></div>
-                <div className="w-[5rem]"><img src={adv5}/></div>
-                <div className="w-[4rem]"><img src={adv6}/></div>
-                <div className="w-[4rem]"><img src={adv7}/></div>
-                <div className="w-[3rem]"><img src={adv8}/></div>
-                <div className="w-[4rem]"><img src={adv9}/></div>
+                <div className="w-[3rem] md:w-[4rem]"><img src={adv3}/></div>
+                <div className="w-[4rem] md:w-[5rem]"><img src={adv4}/></div>
+                <div className="w-[4rem] md:w-[5rem]"><img src={adv5}/></div>
+                <div className="w-[3rem] md:w-[4rem]"><img src={adv6}/></div>
+                <div className="w-[3rem] md:w-[4rem]"><img src={adv7}/></div>
+                <div className="w-[2rem] md:w-[3rem]"><img src={adv8}/></div>
+                <div className="w-[3rem] md:w-[4rem]"><img src={adv9}/></div>
             </div>
             <div className="p-3 md:p-1">
                    

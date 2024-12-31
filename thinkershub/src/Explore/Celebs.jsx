@@ -10,15 +10,15 @@ import I8 from "../assets/Image8.png"
 const Celebs = ()=>{
     return(
         <>
-            <div className="grid grid-cols-2 gap-[1rem]  md:gap-2 lg:w-[100%] sm:float-start ml-[4px] pr-[12px] md:pr-[45px] md:mr-[35px]">
-                <div className="w-[11rem]"><img src={I1}/></div>
-                <div className="w-[11rem]"><img src={I2}/></div>
-                <div className="w-[11rem]"><img src={I3}/></div>
-                <div className="mt-[-30px] w-[11rem]"><img src={I4}/></div>
-                <div className="mt-[-10px] w-[11rem]"><img src={I5}/></div>
-                <div className="w-[11rem]"><img src={I6}/></div>
-                <div className="mt-[-60px] w-[11rem]"><img src={I7}/></div>
-                <div className="w-[11rem]"><img src={I8}/></div>
+            <div className="grid grid-cols-2 gap-[1rem]  md:gap-1 lg:w-[100%] md:float-center place-items-center ml-[4px] pr-[12px] md:pr-[45px] md:mr-[35px]">
+                <div className="w-[11rem] md:w-[13rem]"><img src={I1}/></div>
+                <div className=" mt-[-30px] w-[11rem] md:w-[13rem]"><img src={I2}/></div>
+                <div className="w-[11rem] md:w-[13rem]"><img src={I3}/></div>
+                <div className="mt-[-30px] w-[11rem] md:w-[13rem]"><img src={I4}/></div>
+                <div className="mt-[-60px] w-[11rem] md:w-[13rem]"><img src={I5}/></div>
+                <div className="w-[11rem] md:w-[13rem]"><img src={I6}/></div>
+                <div className="mt-[-60px] w-[11rem] md:w-[13rem]"><img src={I7}/></div>
+                <div className="w-[11rem] md:w-[13rem]"><img src={I8}/></div>
             </div>
         </>
     )
