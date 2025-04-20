@@ -1,7 +1,17 @@
+import Campaign from "../Services/Campaign";
+import Products from "../Services/Products";
+import Repurpose from "../Services/Repurpose";
+import Testimonial from "../Services/Testimonial";
+import Traffic from "../Services/Traffic";
+
 const Services = () =>{
     return(
         <div>
-            This is the services view
+            <Products/>
+            <Campaign/>
+            <Traffic/>
+            <Repurpose/>
+            <Testimonial/>
         </div>
     )
 }

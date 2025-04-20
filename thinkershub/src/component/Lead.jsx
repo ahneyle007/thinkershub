@@ -4,6 +4,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from "react";
 import Nav from "./Nav";
 import Navmob from "./Navmob";
+import Footlayer from "./Footlayer.jsx"
 
 
 
@@ -40,6 +41,7 @@ function Lead () {
                 )
             }
             <Outlet/>
+            <Footlayer/>
         </div>
     )
 }

@@ -5,7 +5,6 @@ import Inspire from "../Explore/Inspire";
 import Join from "../Explore/Join";
 import LineUp from "../Explore/LineUp";
 import Meet from "../Explore/Meet"
-import Reachout from "../Explore/Reachout";
 
 
 const Home = () =>{
@@ -19,7 +18,6 @@ const Home = () =>{
             <Community/>
             <Hype/>
             <Join/>
-            <Reachout/>
         </div>
     )
 }
